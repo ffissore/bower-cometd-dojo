@@ -1,0 +1,38 @@
+{
+  "name": "cometd-binding-dojo",
+  "homepage": "https://github.com/cometd/cometd",
+  "authors": [
+    "Federico Fissore <federico@fissore.org>"
+  ],
+  "description": "The CometD project is a scalable web messaging bus that uses WebSocket and HTTP AJAX push technology patterns known as \"Comet\" techniques",
+  "main": [
+    "cometd.js",
+    "cometd/ack.js",
+    "cometd/reload.js",
+    "cometd/timestamp.js",
+    "cometd/timesync.js"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "cometd",
+    "scalable",
+    "web",
+    "messaging",
+    "bus",
+    "websocket",
+    "ajax",
+    "push",
+    "comet"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "cometd": "=3.0.9.1",
+    "dojo": "~1.10.4"
+  }
+}
